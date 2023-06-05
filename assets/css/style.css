@@ -1,0 +1,253 @@
+@font-face {
+  font-family: Lato;
+  src: url('../fonts/Lato/Lato-Regular.ttf');
+  font-family: Merriweather;
+  src: url('../fonts/Merriweather/Merriweather-Regular.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.img_hov:hover {
+box-shadow: 2px 2px 30px rgb(208, 208, 208);
+}
+main {
+  margin: 0 115px;
+}
+nav {
+  text-align: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-top: 27px;
+  margin-right: 17px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-family: Lato, sans-serif;
+}
+/* ===== SECTION HERO ====== */
+.hero {
+  margin-left: 115px;
+  margin-top: 150px;
+  width: 100%;
+  display: inline-block;
+}
+
+.hero .text {
+  width: 28%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.hero .text h2 {
+  font-size: 48px;
+  font-family: Merriweather, sans-serif;
+}
+
+.hero .text p {
+  font-size: 20px;
+  line-height: 38px;
+  font-family: Merriweather, sans-serif;
+  margin: 20px 0;
+}
+
+.text .download {
+  width: 135px;
+  height: 63px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 19px;
+  font-family: Merriweather, sans-serif;
+  margin-right: 13px;
+}
+
+.text .subscribe {
+  width: 135px;
+  height: 63px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 2.5px solid rgb(208, 208, 208);
+  border-radius: 8px;
+  font-size: 19px;
+  font-family: Merriweather, sans-serif;
+}
+
+ .ils__1 {
+  width: 400px;
+  height: auto;
+  display: inline-block;
+  margin-left: 35%;
+}
+/* ===== SECTION real ====== */
+
+.real {
+  margin-left: 115px;
+  margin-top: 150px;
+  width: 100%;
+  display: inline-block;
+}
+.ils__2{
+  width: 400px;
+  height: 500px;
+  display: inline-block;
+  vertical-align: top;
+}
+.real .text_real {
+  width: 500px;
+  height: 100%;
+  display: inline-block;
+  margin-left: 20%;
+}
+.real .text_real h2 {
+  font-size: 48px;
+  font-family: Merriweather, sans-serif;
+}
+
+.real .text_real p {
+  font-size: 20px;
+  line-height: 38px;
+  font-family: Merriweather, sans-serif;
+  margin: 20px 0;
+}
+
+/* ===== SECTION Illustration ====== */
+
+.illustration{
+  margin-top: 95px;
+  text-align: center;
+}
+.illustration h2 {
+  font-size: 48px;
+  font-family: Merriweather, sans-serif;
+}
+.illustration p {
+  font-size: 20px;
+  line-height: 38px;
+  font-family: Merriweather, sans-serif;
+  margin: 20px auto 40px auto;
+  width: 60%;
+}
+.pictures img {
+  width: 365px;
+  height: 300px;
+}
+/* ===== SECTION exemples ====== */
+.exemples{
+  margin-top: 95px;
+  text-align: center;
+}
+.exemples h2 {
+  font-size: 48px;
+  font-family: Merriweather, sans-serif;
+}
+.exemples p {
+  font-size: 20px;
+  line-height: 38px;
+  font-family: Merriweather, sans-serif;
+  margin: 20px auto 40px auto;
+  width: 60%;
+}
+.exemple_pic img {
+  width: 576px;
+  height: 325px;
+  margin-right: 60px;
+  margin-bottom: 60px;
+}
+/* ===== SECTION download ====== */
+.download{
+  margin-top: 95px;
+  text-align: center;
+}
+.download h2 {
+  font-size: 48px;
+  font-family: Merriweather, sans-serif;
+}
+.download p {
+  font-size: 20px;
+  line-height: 38px;
+  font-family: Merriweather, sans-serif;
+  margin: 20px auto 40px auto;
+  width: 60%;
+}
+article{
+  background-color: hsla(206, 88%, 78%, 0.1);
+  width: 360px;
+  height: 570px;
+  margin: 0 auto;
+}
+article h3 {
+  font-size: 24px;
+  padding-top: 65px ;
+  padding-bottom: 45px;
+}
+article h4{
+  font-size: 80px;
+}
+article p{
+  font-size: 16px;
+  color: rgb(209, 209, 209);
+}
+article ul li {
+  list-style: none;
+  font-size: 16px;
+}
+article button{
+  width: 230px;
+  height: 53px;
+  background-color: hsla(206, 82%, 63%, 1);
+  border: none;
+  border-radius: 8px;
+  font-size:16px ;
+  color: white;
+  font-family: Merriweather, sans-serif;
+  margin-top: 16px;
+  cursor: pointer;
+}
+/* ===== Footer ====== */
+footer {
+  margin-top: 95px;
+  text-align: center;
+}
+footer h2 {
+  font-size: 48px;
+  font-family: Merriweather, sans-serif;
+  margin-bottom: 20px;
+}
+footer h4{
+  font-size: 80px;
+    font-family: Merriweather, sans-serif;;
+}
+footer p{
+  font-size: 16px;
+  color: rgb(209, 209, 209);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+footer a {
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+}
+footer ul li {
+  display: inline;
+  padding-bottom: 3rem;
+}
+footer ul li:nth-of-type(2){
+  color:hsla(35, 97%, 63%, 1);
+}
+footer ul li:nth-of-type(3){
+  color: hsla(206, 82%, 63%, 1);
+}
+footer ul li:nth-of-type(4){
+  color: hsla(2, 64%, 47%, 1);
+}
